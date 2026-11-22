@@ -16,25 +16,18 @@
 .header__brand {
   display: block;
   text-decoration: none;
-  color: var(--color-text);
 }
 
 .header__brand:hover {
   text-decoration: none;
-  color: var(--color-primary-dark);
 }
 
-.header__brand-name {
-  font-family: Georgia, 'Times New Roman', serif;
-  font-size: clamp(2.2rem, 6vw, 4.2rem);
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  line-height: 1;
-  display: inline-block;
-  padding: 0.25rem 0.5rem;
-  border-top: 3px solid var(--color-text);
-  border-bottom: 3px solid var(--color-text);
+.header__title-image {
+  display: block;
+  max-width: min(90vw, 520px);
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
 .header__tagline {
@@ -92,7 +85,7 @@
   padding: 0.4rem 0.9rem;
   border: 2px solid var(--color-primary-dark);
   background: var(--color-primary);
-  color: #1a1a1a;
+  color: #ffffff;
   cursor: pointer;
   font-family: Georgia, 'Times New Roman', serif;
   font-size: 0.8rem;
@@ -102,6 +95,10 @@
 
 .header__theme-btn:hover {
   filter: brightness(0.95);
+}
+
+[data-theme='dark'] .header__theme-btn {
+  border-color: #d4a017;
 }
 
 @media (max-width: 600px) {

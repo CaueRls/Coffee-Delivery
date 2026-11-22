@@ -11,7 +11,7 @@ export function Header() {
     <header className="header">
       <p className="header__topline" aria-hidden="true">Est. século XX • Anúncios clássicos</p>
       <Link to="/" className="header__brand" aria-label="Cup O'Clock - página inicial">
-        <span className="header__brand-name">Cup O&apos;Clock</span>
+        <img className="header__title-image" src="/assets/brand/title.jpg" alt="Cup O'Clock" />
       </Link>
       <p className="header__tagline">Café fresco com estilo de anúncio vintage</p>
       <div className="header__bar">

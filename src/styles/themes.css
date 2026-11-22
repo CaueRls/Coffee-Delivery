@@ -1,7 +1,7 @@
 :root,
 [data-theme='light'] {
-  /* Estilo anúncio século XX (papel/creme) */
-  --color-background: #f4efe4;
+  /* Fundo solicitado */
+  --color-background: #F5E2B8;
   --color-surface: #fffdf7;
   --color-text: #2b2118;
   --color-text-secondary: #5c4b3d;
