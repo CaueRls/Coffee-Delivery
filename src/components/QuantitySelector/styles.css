@@ -1,0 +1,30 @@
+.quantity {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 0.25rem 0.5rem;
+}
+
+.quantity__btn {
+  width: 28px;
+  height: 28px;
+  border: none;
+  background: transparent;
+  color: var(--color-accent);
+  font-size: 1.2rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.quantity__btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.quantity__value {
+  min-width: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+}
