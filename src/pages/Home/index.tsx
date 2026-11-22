@@ -1,8 +1,11 @@
 import { coffees } from '../../data/coffees'
 import { ProductCard } from '../../components/ProductCard'
+import { useCart } from '../../contexts/CartContext/CartContext'
 import './styles.css'
 
 export function Home() {
+  const { addItem } = useCart()
+
   return (
     <div className="home">
       <section className="home__hero" aria-labelledby="hero-title">
@@ -25,10 +28,7 @@ export function Home() {
             <ProductCard
               key={coffee.id}
               coffee={coffee}
-              onAdd={(c, q) => {
-                // Será conectado ao carrinho na Fase 7
-                console.log('Adicionar ao carrinho (placeholder):', c.name, q)
-              }}
+              onAdd={(c, q) => addItem(c, q)}
             />
           ))}
         </div>

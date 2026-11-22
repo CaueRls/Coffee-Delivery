@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom'
 import { useTheme } from '../../contexts/ThemeContext/ThemeContext'
+import { useCart } from '../../contexts/CartContext/CartContext'
 import './styles.css'
 
 export function Header() {
   const { theme, toggleTheme } = useTheme()
+  const { itemCount } = useCart()
 
   return (
     <header className="header">
@@ -13,7 +15,9 @@ export function Header() {
       </Link>
       <nav className="header__nav" aria-label="Navegação principal">
         <Link to="/" className="header__link">Início</Link>
-        <Link to="/checkout" className="header__link">Carrinho / Checkout</Link>
+        <Link to="/checkout" className="header__link">
+          Carrinho{itemCount > 0 ? ` (${itemCount})` : ''}
+        </Link>
       </nav>
       <div className="header__actions">
         <button
