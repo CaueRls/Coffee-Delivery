@@ -1,26 +1,26 @@
 :root,
 [data-theme='light'] {
-  /* Jazz 80s (modo claro - variação suave) */
-  --color-background: #f6f1e7;
-  --color-surface: #fff8ef;
-  --color-text: #1f1a17;
-  --color-text-secondary: #5a4a3f;
-  --color-primary: #d4a017;
-  --color-primary-dark: #a86f00;
-  --color-accent: #2d8a8a;
-  --color-border: #e4d9c8;
-  --color-error: #b33a2b;
+  /* Estilo anúncio século XX (papel/creme) */
+  --color-background: #f4efe4;
+  --color-surface: #fffdf7;
+  --color-text: #2b2118;
+  --color-text-secondary: #5c4b3d;
+  --color-primary: #8b3a2b;
+  --color-primary-dark: #6b2b1f;
+  --color-accent: #2f5d50;
+  --color-border: #c9b99a;
+  --color-error: #a12c1c;
 }
 
 [data-theme='dark'] {
-  /* Jazz 80s (modo escuro) */
-  --color-background: #121018;
-  --color-surface: #1f1a2b;
-  --color-text: #f4efe6;
-  --color-text-secondary: #c9bfb0;
-  --color-primary: #f0c75e;
-  --color-primary-dark: #d4a017;
-  --color-accent: #3ec9c9;
-  --color-border: #3a3347;
-  --color-error: #ff6b5a;
+  /* Variação escura mantendo clima retrô */
+  --color-background: #1c1914;
+  --color-surface: #2a241c;
+  --color-text: #f2eadc;
+  --color-text-secondary: #d4c7b3;
+  --color-primary: #c76a4a;
+  --color-primary-dark: #a8543a;
+  --color-accent: #6ea892;
+  --color-border: #5c4f3f;
+  --color-error: #e07060;
 }

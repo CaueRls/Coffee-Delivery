@@ -9,25 +9,28 @@ export function Header() {
 
   return (
     <header className="header">
-      <Link to="/" className="header__brand" aria-label="Coffee Delivery - página inicial">
-        <span className="header__brand-mark" aria-hidden="true">CD</span>
-        <span>Coffee Delivery</span>
+      <p className="header__topline" aria-hidden="true">Est. século XX • Anúncios clássicos</p>
+      <Link to="/" className="header__brand" aria-label="Cup O'Clock - página inicial">
+        <span className="header__brand-name">Cup O&apos;Clock</span>
       </Link>
-      <nav className="header__nav" aria-label="Navegação principal">
-        <Link to="/" className="header__link">Início</Link>
-        <Link to="/checkout" className="header__link">
-          Carrinho{itemCount > 0 ? ` (${itemCount})` : ''}
-        </Link>
-      </nav>
-      <div className="header__actions">
-        <button
-          type="button"
-          className="header__theme-btn"
-          onClick={toggleTheme}
-          aria-label={theme === 'dark' ? 'Ativar modo claro' : 'Ativar modo escuro'}
-        >
-          {theme === 'dark' ? 'Modo claro' : 'Modo escuro'}
-        </button>
+      <p className="header__tagline">Café fresco com estilo de anúncio vintage</p>
+      <div className="header__bar">
+        <nav className="header__nav" aria-label="Navegação principal">
+          <Link to="/" className="header__link">Início</Link>
+          <Link to="/checkout" className="header__link">
+            Carrinho{itemCount > 0 ? ` (${itemCount})` : ''}
+          </Link>
+        </nav>
+        <div className="header__actions">
+          <button
+            type="button"
+            className="header__theme-btn"
+            onClick={toggleTheme}
+            aria-label={theme === 'dark' ? 'Ativar modo claro' : 'Ativar modo escuro'}
+          >
+            {theme === 'dark' ? 'Modo claro' : 'Modo escuro'}
+          </button>
+        </div>
       </div>
     </header>
   )

@@ -11,12 +11,11 @@ export function Home() {
       <section className="home__hero" aria-labelledby="hero-title">
         <div>
           <p style={{ textTransform: 'uppercase', letterSpacing: '0.2em', fontSize: '0.75rem', color: 'var(--color-accent)' }}>
-            Noite de jazz • Café especial
+            Qualidade desde sempre • Anúncio clássico
           </p>
-          <h1 id="hero-title">Coffee Delivery</h1>
+          <h1 id="hero-title">O melhor café, entregue a você</h1>
           <p>
-            Encontre o café perfeito para qualquer hora do dia. Com entrega rápida e os melhores grãos,
-            em clima inspirados nos anos 80.
+            Escolha seu favorito, receba em casa. Sabores selecionados com o charme dos anúncios do século passado.
           </p>
         </div>
       </section>
