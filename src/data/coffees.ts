@@ -11,7 +11,7 @@ export const coffees: Coffee[] = [
   },
   {
     id: 'latte',
-    name: 'Latte',
+    name: 'Expresso',
     description: 'Café expresso com leite vaporizado e espuma suave',
     priceInCents: 1290,
     image: '/assets/products/coffee-2.jpg',
@@ -27,7 +27,7 @@ export const coffees: Coffee[] = [
   },
   {
     id: 'mocha',
-    name: 'Mocaccino',
+    name: 'Café com leite',
     description: 'Café expresso com chocolate, leite e espuma',
     priceInCents: 1590,
     image: '/assets/products/coffee-4.jpg',
