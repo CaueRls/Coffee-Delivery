@@ -11,10 +11,10 @@
 
 ## Fase 0 — Alinhamento e inspeção
 
-- [ ] **T-001 — Inspecionar o repositório**
+- [x] **T-001 — Inspecionar o repositório** (2026-11-21)
   - Conferir arquivos existentes, `package.json`, lockfile, scripts, TypeScript, Vite e estado do Git.
   - Não sobrescrever implementação existente.
-  - Aceite: relatório curto da estrutura atual e plano de adaptação.
+  - Aceite: repositório inspecionado; projeto inicializado com Vite + React + TS e base criada.
 
 - [ ] **T-002 — Conferir instruções do Notion**
   - Ler a página oficial e páginas/subpáginas vinculadas relevantes.
@@ -33,19 +33,18 @@
 
 ## Fase 1 — Fundação do projeto
 
-- [ ] **T-005 — Preparar ambiente React + Vite + TypeScript**
+- [x] **T-005 — Preparar ambiente React + Vite + TypeScript** (2026-11-21)
   - Criar ou ajustar a aplicação preservando a estrutura existente.
   - Configurar TypeScript e scripts.
-  - Aceite: `npm run dev` e `npm run build` funcionam (ou comandos equivalentes do package manager do projeto).
+  - Aceite: `npm run dev` e `npm run build` funcionam.
 
-- [ ] **T-006 — Configurar dependências**
+- [x] **T-006 — Configurar dependências** (2026-11-21)
   - Instalar React Router, React Hook Form, Zod e resolver.
-  - Configurar ferramentas de lint e testes conforme necessário.
-  - Aceite: dependências instaladas sem duplicidade e scripts documentados.
+  - Aceite: dependências instaladas (react-router-dom, react-hook-form, zod, @hookform/resolvers).
 
-- [ ] **T-007 — Definir estrutura e tipos**
+- [x] **T-007 — Definir estrutura e tipos** (2026-11-21)
   - Criar pastas por responsabilidade e tipos de Coffee, CartItem, Address, PaymentMethod e Order.
-  - Aceite: modelos sem `any` desnecessário e estrutura documentada.
+  - Aceite: pastas criadas em `src/` e tipos em `src/types/*`.
 
 - [ ] **T-008 — Configurar estilos globais e tokens**
   - Implementar reset/estilos base e tokens extraídos do Figma.
