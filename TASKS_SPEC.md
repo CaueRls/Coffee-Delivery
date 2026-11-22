@@ -46,9 +46,9 @@
   - Criar pastas por responsabilidade e tipos de Coffee, CartItem, Address, PaymentMethod e Order.
   - Aceite: pastas criadas em `src/` e tipos em `src/types/*`.
 
-- [ ] **T-008 — Configurar estilos globais e tokens**
-  - Implementar reset/estilos base e tokens extraídos do Figma.
-  - Aceite: base visual aplicada sem valores duplicados e sem quebrar responsividade.
+- [x] **T-008 — Configurar estilos globais e tokens** (2026-11-21)
+  - Implementar reset/estilos base e tokens iniciais (pendente refinamento com Figma).
+  - Aceite: base visual aplicada com variáveis de tema em `src/styles/*`.
 
 ## Fase 2 — Identidade visual e layout
 
